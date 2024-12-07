@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soundz</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="Spotify Logo" style="border-radius: 100%;">Soundz</li>
+            
+        </ul>
+    </nav>
+    <div class="container">
+        
+        <div class="songList">
+            <h1>Uploaded Songs</h1> 
+            <div class="songItemContainer">
+                <div class="songItem">
+                    <img src="espresso.jpg" alt="">
+                     <span><p class="songName">Espresso</p></span>
+                    <span class="timestamp"><p>02:55 <i class="fa-solid fa-play listSong" id="0"></i></p></span>
+                </div>
+                <div class="songItem">
+                    <img src="bigdawgs.jpg" alt="">
+                    <span><p class="songName">Big Dawgs</p></span>
+                    <span class="timestamp"><p>03:10 <i class="fa-solid fa-play listSong" id="1"></i></p></span>
+                </div>
+                <div class="songItem">
+                    <img src="byebye.webp" alt="">
+                    <span><p class="songName">Bye Bye Bye</p></span>
+                    <span class="timestamp"><p>03:25 <i class="fa-solid fa-play listSong" id="2"></i></p></span>
+                </div>
+                <div class="songItem">
+                    <img src="aajkiraat.jpg" alt="">
+                    <span><p class="songName">Aaj ki Raat</p></span>
+                    <span class="timestamp"><p>03:48 <i class="fa-solid fa-play listSong" id="3"></i></p></span>
+                </div>
+                <div class="songItem">
+                    <img src="size_m.webp" alt="">
+                    <span><p class="songName">Tere Ho Ke</p></span>
+                    <span class="timestamp"><p>03:46 <i class="fa-solid fa-play listSong" id="4"></i></p></span>
+                </div>
+                <div class="songItem">
+                    <img src="MASHA-ULTRAFUNK-Russian-2024-20240327234717-500x500.jpg" alt="">
+                   <span> <p class="songName">Masha Ultrafunk</p></span>
+                    <span class="timestamp"><p>01:36 <i class="fa-solid fa-play listSong" id="5"></i></p></span>
+                </div>
+                <div class="songItem">
+                    <img src="millionaire.jpg" alt="">
+                    <span><p class="songName">Millionaire</p></span>
+                    <span class="timestamp"><p>03:19 <i class="fa-solid fa-play listSong" id="6"></i></p></span>
+                </div>
+                
+            </div>
+        </div> 
+        <div></div>      
+        <div class="footer"></div> 
+    </div>
+    
+    
+    <div class="bottom">
+        <div class="gif">
+        <img src="rap.gif"><div>Espresso</div> 
+        </div>
+        <div class="icons">
+            <div class="icon">
+              <i class="fa-solid fa-backward"  id="previous"></i>
+              <i class="fa-solid fa-play" id="masterPlay"></i>
+              <i class="fa-solid fa-forward" id="next"></i>
+            </div>
+            <div class="progressBar">
+                <span class="time">00:00</span>
+                <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+                <span class="time1">3:00</span>
+            </div>
+        </div>
+        
+        
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
